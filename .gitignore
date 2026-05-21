@@ -1,0 +1,18 @@
+# Arduino and editor outputs
+*.hex
+*.elf
+*.bin
+*.map
+build/
+.vscode/
+.idea/
+
+# Local notes and large reference files
+*.docx
+*.pptx
+*.pdf
+~$*
+
+# OS files
+Thumbs.db
+.DS_Store

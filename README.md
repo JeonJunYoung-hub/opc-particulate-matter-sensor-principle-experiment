@@ -4,6 +4,18 @@ Arduino/Teensy experiments for studying particulate matter sensing principles wi
 
 This repository keeps only code and public-facing notes. Vendor datasheets, training decks, and local experiment documents are intentionally excluded.
 
+## Experiment Photos
+
+<p align="center">
+  <img src="docs/images/hamamatsu-c9118-driver-board.jpeg" alt="Hamamatsu C9118 driver board and photodiode array interface" width="260" />
+  <img src="docs/images/teensy-breadboard-readout.jpeg" alt="Teensy breadboard readout wiring for OPC signal acquisition" width="260" />
+  <img src="docs/images/optical-particle-counter-enclosure.jpeg" alt="Optical particle counter style enclosure on an optical table" width="260" />
+</p>
+
+- **Hamamatsu driver board:** C9118-style driver board connected to a linear photodiode array module.
+- **Teensy readout setup:** breadboard prototype used for timing, signal acquisition, and serial logging.
+- **Optical enclosure:** experimental optical path housing used for the OPC principle test setup.
+
 ## Experiments
 
 - `arduino/opc_photodetector_readout/`  
